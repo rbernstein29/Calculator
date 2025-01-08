@@ -8,7 +8,7 @@
 # User enters a number, followed by a sign (+, -, *, /, %), followed by another number. The result is used as the first
 # number for the next equation. The user can reset the calculator by entering "clear" into the sign prompt. The
 # user can quit the calculator by entering "quit" into the sign prompt, which will end the process. The calculator
-# also quits automatically if the result of an equation is undefined (div or mod by 0)
+# also quits automatically if the result of an equation is undefined (div or mod by 0) or if there is an invalid entry
 
 
 def interface():
